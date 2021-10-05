@@ -19,6 +19,7 @@ namespace App2
             InitializeComponent();
         }
         
+        // Increment the count whenever there is an onclick event.
         private async void NavigateButton_OnClicked(object sender, EventArgs e)
         {
             count++;
