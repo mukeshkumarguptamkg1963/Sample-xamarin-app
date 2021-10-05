@@ -13,9 +13,16 @@ namespace App2
     [DesignTimeVisible (false)]
     public partial class MainPage : ContentPage
     {
+        int count = 0;
         public MainPage()
         {
             InitializeComponent();
+        }
+        
+        private async void NavigateButton_OnClicked(object sender, EventArgs e)
+        {
+            count++;
+            ((Button)sender).Text = $"You clicked {count} times.";
         }
     }
 }
