@@ -13,6 +13,8 @@
            VerticalOptions="CenterAndExpand" />
         <BoxView HeightRequest="5" WidthRequest="1" BackgroundColor="Black"/>
         <BoxView HeightRequest="16" WidthRequest="1" BackgroundColor="White"/>
+        <BoxView HeightRequest="5" WidthRequest="1" BackgroundColor="Red"/>
+        <BoxView HeightRequest="16" WidthRequest="1" BackgroundColor="Green"/>
         <Button Text="Create New Contact" BackgroundColor="LightBlue"  Clicked="NavigateButton_OnClicked"/>
     </StackLayout>
 
