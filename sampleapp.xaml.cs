@@ -25,7 +25,7 @@ namespace App2
         }
         
         // Decrement the count whenever there is an onclick event.
-        private async void NavigateButton_OnClicked(object sender, EventArgs e)
+        private async void NavigateButton_OnClicked_Decrement(object sender, EventArgs e)
         {
             count--;
             ((Button)sender).Text = $"You clicked {count} times.";
